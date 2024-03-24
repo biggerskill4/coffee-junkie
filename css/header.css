@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  padding: 0px 50px;
+  background: #ffd2b5;
+}
+.header a {
+  color: #8a5110;
+  font-weight: 500;
+  font-size: 16px;
+}
+.header .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* logo */
+.header .logo img{
+    width: 150px;
+}
+/* navbar */
+.header .navbar{
+  text-align: right;
+}
+.header .navbar ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+.header .navbar ul li a {
+  padding: 10px 30px;
+  transition: all 0.5s;
+  /* border: 1px solid #8a5110; */
+  border-radius: 20px;
+}
+.header .navbar ul li:hover a{
+  padding: 15px 40px;
+  background: #8a5110;
+  color: #fff;
+}
+/* button */
+.header button a {
+  color: #fff;
+}

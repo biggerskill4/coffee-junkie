@@ -1,0 +1,181 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 60vh;
+    background-image: url(../Images/Background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner .content{
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.banner .headings{
+    text-align: left;
+}
+.banner .headings h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-left: -10px;
+}
+.banner .headings p{
+    font-size: 18px;
+    width: 500px;
+}
+.banner .headings button{
+    margin-top: 10px;
+    padding: 0 30px;
+}
+
+/* blogs */
+.blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8a5110;
+}
+.blogs .card a{
+    color: #8a5110;
+}
+.blogs .content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogs .card{
+    padding: 20px;
+    text-align: center;
+    height: 450px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid #8a5110;
+    background: #ffd2b5;
+    box-shadow: 0px 5px 10px;
+}
+.blogs .image{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.blogs img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    transition: all 0.4s;
+}
+.blogs .card:hover img{
+    transform: scale(1.5);
+}
+.blogs .card h3{
+    font-size: 22px;
+    font-weight: 600;
+    height: 27px;
+    margin: 15px 0 0px;
+}
+.blogs .card .author {
+    font-size: 14px;
+    font-weight: 600;
+}
+.blogs .card .text {
+    padding: 5px 20px;
+    height: 44px;
+    overflow: hidden;
+}
+
+.blogs .card button {
+    margin: 10px;
+}
+
+/* about us */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .content{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .content .descrip {
+    padding: 20px 50px 20px 20px;
+}
+.about .content .descrip p{
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px; 
+}
+.about .content .image{
+    background-image: url(../Images/Blackcoffee.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 20px;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffd2b5;
+    color: #8a5110;
+    margin-top: 50px;
+}
+footer a{
+    color: #8a5110;
+}
+footer h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+footer .col-5{
+    height: 200px;
+}
+footer ul li{
+    margin: 10px 0;
+    list-style-type: none;
+    font-size: 16px;
+}
+footer .content{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* image-content */
+footer .image-content{
+    padding: 20px;
+}
+footer .image-content img{
+    width: 250px;
+}
+footer .image-content p{
+    width: 80%;
+}
+footer .image-content .social{
+    margin-top: 10px;
+}
+footer .image-content .social ion-icon{
+    margin: 5px;
+}
+/* contact us */
+footer .contact-us ion-icon{
+    font-size: 20px;
+}
+footer .newsletter input[type=email]{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+footer .newsletter button{
+    width: 100%;
+}
