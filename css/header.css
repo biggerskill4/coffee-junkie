@@ -37,6 +37,11 @@
   background: #8a5110;
   color: #fff;
 }
+.header .navbar ul li .active{
+  background: #8a5110;
+  color: #fff;
+  padding: 15px 40px;
+}
 /* button */
 .header button a {
   color: #fff;

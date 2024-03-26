@@ -1,4 +1,5 @@
 @import url(header.css);
+@import url(footer.css);
 
 :root {
   --primary-color: #ad7f65;
@@ -22,7 +23,7 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
 }
-
+/* anchor links */
 a {
   color: var(--text-color);
   text-decoration: none !important;
@@ -49,7 +50,7 @@ button:hover {
   background: #773614;
   color: #fff !important;
 }
-button a{
+button a {
   color: var(--text-color) !important;
 }
 button:hover a {
@@ -69,7 +70,7 @@ button:hover .label {
 .fa {
   color: var(--text-color);
 }
-
+/* columns */
 .col {
   width: 100%;
 }
@@ -88,35 +89,44 @@ button:hover .label {
 .col-6 {
   width: 16.61%;
 }
-
+/* mobile screen column */
+@media screen and (max-width: 500px) {
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6 {
+    width: 100%;
+  }
+}
 /* icon  */
 ion-icon {
   font-size: 30px;
 }
 /* headings */
-.heading{
+.heading {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
 }
-.heading h2{
+.heading h2 {
   font-size: 60px;
   font-weight: 700;
   color: #fff;
 }
 /* input */
-input{
+input {
   padding: 10px;
   border-radius: 20px;
   border: none;
 }
-input[type=submit]{
+input[type="submit"] {
   padding: 0 10px;
   background: transparent;
   border: none;
   color: #fff;
 }
-.extra-space{
+.extra-space {
   height: 100vh;
   width: 100%;
 }

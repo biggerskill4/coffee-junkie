@@ -28,16 +28,18 @@
         </div>
         <div class="navbar col">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Number</a></li>
+            <li><a href="/index.html" class="active">Home</a></li>
+            <li><a href="/blogs.html">Blogs</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/number.html">Number</a></li>
           </ul>
         </div>
         <div class="buttons col-5">
           <button>
-            <div class="label">Contact us</div>
-            <div class="label">Contact us</div>
+            <a href="/contact-us.html">
+              <div class="label">Contact us</div>
+              <div class="label">Contact us</div>
+            </a>
           </button>
         </div>
       </div>
@@ -166,6 +168,30 @@
         </div>
       </div>
     </div>
+    <!-- about us end -->
+
+    <!-- contact us form -->
+    <div class="heading"><h2>Contact Us</h2></div>
+    <div class="contact-form">
+      <div class="content">
+        <form action="submit">
+          <label for="fname">First Name</label><br>
+          <input type="text" name="fname" id="fname" placeholder="First Name"><br>
+          <label for="lname">Last Name</label><br>
+          <input type="text" name="lname" id="lname" placeholder="Last Name"><br>
+          <label for="email">Email</label><br>
+          <input type="email" name="email" id="email" placeholder="Email"><br>
+          <label for="pswd">Password</label><br>
+          <input type="password" name="pswd" id="pswd" placeholder="Password"><br>
+          <button>
+            <div class="label"><input type="submit" value="submit"></div>
+            <div class="label"><input type="submit" value="submit"></div>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- contact us form end -->
+
 
     <!-- footer -->
     <footer>
@@ -188,30 +214,49 @@
         <div class="col-5 quick-links">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Number</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blogs.html">Blogs</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/number.html">Number</a></li>
+            <li><a href="/contact-us.html">Contact US</a></li>
           </ul>
         </div>
         <div class="col-5 contact-us">
           <h4>Contact</h4>
           <ul>
-            <li><a href="tel+:123456789"><ion-icon name="call-outline"></ion-icon> +123456789</a></li>
-            <li><a href="mailto:abc@gmail.com"><ion-icon name="mail-open-outline"></ion-icon> abc@gmail.com</a></li>
-            <li><ion-icon name="location-outline"></ion-icon> abc area no where</li>
+            <li>
+              <a href="tel+:123456789"
+                ><ion-icon name="call-outline"></ion-icon> +123456789</a
+              >
+            </li>
+            <li>
+              <a href="mailto:abc@gmail.com"
+                ><ion-icon name="mail-open-outline"></ion-icon> abc@gmail.com</a
+              >
+            </li>
+            <li>
+              <ion-icon name="location-outline"></ion-icon> abc area no where
+            </li>
           </ul>
         </div>
         <div class="col-5 newsletter">
           <h4>NewsLetter</h4>
           <form action="/action_page.php">
-            <input type="email" id="email" name="email" placeholder="Your Email"><br>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+            /><br />
             <button>
-              <div class="label"><input type="submit" value="Submit"></div>
-              <div class="label"><input type="submit" value="Submit"></div>
+              <div class="label"><input type="submit" value="Submit" /></div>
+              <div class="label"><input type="submit" value="Submit" /></div>
             </button>
-          </form> 
+          </form>
         </div>
+      </div>
+      <div class="top-to">
+        <a href="#top">Top</a>
       </div>
     </footer>
   </body>
